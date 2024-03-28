@@ -11,7 +11,8 @@ echo "6. Exit "
 
 read choicevar
 if [ $choicevar -eq 1 ]
-		installSteamx86
+	then
+	installSteamx86
 elif [ $choicevar -eq 2 ]
 	then 
 	installPPSSPP
