@@ -11,6 +11,9 @@ This can install the following :
 4. Build Retropie
 5. Build Xonotic
 
+Download the script and run with :
+/bin/bash ./armbian-gamingX86.sh
+
 To start steam just type "steam" in terminal
 To start PPSSPP type PPSSPPSDL in terminal
 To start Retropie type "emulationstation" in terminal
