@@ -39,7 +39,7 @@ function installSteamx86 {
   sudo apt update
   sudo apt install wget gdebi-core libgl1-mesa-glx:i386
   wget -O ~/steam.deb http://media.steampowered.com/client/installer/steam.deb
-  sudo dpkg -i steam.deb
+  sudo dpkg -i ~/steam.deb
   echo "Run steam in terminal to open."
 }
 
