@@ -1,6 +1,6 @@
 #!/bin/bash
 
-function menuJammy {
+function menu {
 echo "Please choose what you want to install! "
 echo "1. Install steam. "
 echo "2. Build and install PPSSPP. "
@@ -99,4 +99,4 @@ function buildXonotic {
 	echo "Xonotic is compiled. Start with ./all run. "
 }
 
-menuJammy
+menu
