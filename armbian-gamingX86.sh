@@ -44,12 +44,12 @@ function installSteamx86 {
 }
 
 function installPPSSPP {
+	sudo apt-get -y install libglfw3-dev libgl1-mesa-dev libglu1-mesa-dev build-essential cmake libgl1-mesa-dev libsdl2-dev libvulkan-dev
 	cd ~
 	git clone --recurse-submodules https://github.com/hrydgard/ppsspp.git
 	cd ppsspp
 	git pull --rebase https://github.com/hrydgard/ppsspp.git
 	git submodule update --init --recursive
-	sudo apt -y install build-essential cmake libgl1-mesa-dev libsdl2-dev libvulkan-dev
 	/bin/bash ./b.sh
 	cd build
 	make
