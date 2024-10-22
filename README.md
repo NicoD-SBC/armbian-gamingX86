@@ -7,9 +7,8 @@ This can install the following :
 
 1. Install Steam client for Linux X86
 2. Build PPSSPP PSP emulator
-3. Build Mailor-droid Android emulator
-4. Build Retropie
-5. Build Xonotic
+3. Build Retropie
+4. Build Xonotic
 
 Download the script and run with :
 /bin/bash ./armbian-gamingX86.sh
