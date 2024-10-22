@@ -1,7 +1,7 @@
 # armbian-gamingX86
 Gaming script for Armbian X86
 
-This script is written for Armbian Jammy. Might work on other Debian based distro's, but no support for that
+This script is written for Armbian Jammy and Noble. Might work on other Debian based distro's, but no support for that
 
 This can install the following :
 
